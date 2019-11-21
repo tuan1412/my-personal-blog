@@ -1,9 +1,81 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.org/docs/gatsby-config/
- */
+const path = require('path');
 
 module.exports = {
-  /* Your site config here */
-}
+  siteMetadata: {
+    title: 'Tuan Nguyen',
+    description: 'Chia sẻ kiến thức về lập trình, cuộc sống. Chủ đề thường là Javascript, React, phát triển bản thân,...',
+    author: 'Tuan Nguyen',
+    keywords: ['React', 'Front-end', 'Javascript', 'blog'],
+    image: '/images/logo-192x192.png',
+    socialLinks: {
+      facebook: 'https://www.facebook.com/ninhxa14',
+      github: 'https://github.com/tuan1412',
+      email: 'tuannguyenanh1412@gmail.com',
+    },
+  },
+  plugins: [
+    'gatsby-plugin-react-helmet',
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
+    {
+      resolve: 'gatsby-plugin-sass',
+      options: {
+        cssLoaderOptions: {
+          camelCase: false,
+        },
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-alias-imports',
+      options: {
+        alias: {
+          '@components': path.resolve(__dirname, './src/components'),
+          '@styles': path.resolve(__dirname, './src/styles'),
+          '@hooks': path.resolve(__dirname, './src/hooks'),
+          '@utils': path.resolve(__dirname, './src/utils'),
+        },
+        extensions: [
+          '.sass',
+          '.scss',
+          '.js',
+          '.json',
+          '.jsx',
+        ],
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/posts/`,
+        name: 'post',
+      },
+    },
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: [
+          {
+            resolve: 'gatsby-remark-images',
+            options: {
+              maxWidth: 590,
+            },
+          },
+          {
+            resolve: 'gatsby-remark-prismjs',
+          },
+          {
+            resolve: 'gatsby-remark-classes',
+            options: {
+              classMap: {
+                h1: 'title header',
+                h2: 'header',
+                h3: 'header',
+                h4: 'header',
+              },
+            },
+          },
+        ],
+      },
+    },
+  ],
+};

@@ -1,0 +1,59 @@
+@import "@styles/variables.scss";
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600|Open+Sans:400,700&display=swap');
+
+.title_blog {
+	font-size: 2.5rem;
+	margin-bottom: 20px;
+	margin-top: 30px;
+	color: $dip;
+}
+
+.tag_wrapper {
+	margin-bottom: 20px;
+}
+
+.content {
+	font-family: "OpenSans", sans-serif;
+	font-weight: initial;
+  word-break: break-word;
+  line-height: 2em;
+  color: rgba(0, 0, 0, 0.8);
+  
+  .header {
+    padding-bottom: 0.2rem;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Montserrat", sans-serif;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.33rem
+  }
+
+  h4 {
+    font-size: 1.1rem
+  }
+
+  p {
+		font-size: 1.1rem;
+	}
+	
+	.gatsby-resp-image-wrapper {
+		margin: 1.1rem auto;
+	}
+}

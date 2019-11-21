@@ -1,0 +1,8 @@
+.blog_left_sidebar {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-column-gap: 10px;
+  grid-row-gap: 40px;
+  padding-bottom: 20px;
+}

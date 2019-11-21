@@ -1,0 +1,159 @@
+@media (max-width:1619px) {
+
+  .header_area .navbar .search {
+    margin-left: 40px;
+  }
+
+}
+
+@media (max-width:1199px) {
+
+  .header_area+section,
+  .header_area+div {
+    margin-top: 143px;
+  }
+
+  .top_menu .container {
+    display: block;
+  }
+}
+
+@media (max-width:991px) {
+
+  .header_area {
+    min-height: auto;
+    .navbar-brand {
+      .logo {
+        font-size: 26px;
+      }
+    }
+  }
+
+  .logo_part {
+    display: none;
+  }
+
+  .navbar-toggler {
+    border: none;
+    border-radius: 0px;
+    padding: 0px;
+    cursor: pointer;
+    margin-top: 27px;
+    margin-bottom: 23px;
+    float: right;
+  }
+
+  .header_area .navbar {
+    background: #fff;
+  }
+
+  .navbar-toggler[aria-expanded="false"] span:nth-child(2) {
+    opacity: 1;
+  }
+
+  .navbar-toggler[aria-expanded="true"] span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .navbar-toggler[aria-expanded="true"] span:first-child {
+    transform: rotate(-45deg);
+    position: relative;
+    top: 7.5px;
+  }
+
+  .navbar-toggler[aria-expanded="true"] span:last-child {
+    transform: rotate(45deg);
+    bottom: 6px;
+    position: relative;
+  }
+
+  .navbar-toggler span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background: #000;
+    margin: auto;
+    margin-bottom: 4px;
+    transition: all 400ms linear;
+    cursor: pointer;
+  }
+
+  .navbar .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+
+  .header_area+section,
+  .header_area+row,
+  .header_area+div {
+    margin-top: 50px;
+  }
+
+  .header_area .navbar .nav-item .nav-link {
+    line-height: 40px;
+    margin-right: 0px;
+    display: block;
+    border-bottom: 1px solid #ededed33;
+    border-radius: 0px;
+  }
+
+  .header_area .navbar .search {
+    margin-left: 0px;
+  }
+
+  .header_area .navbar-collapse {
+    max-height: 340px;
+    overflow-y: auto;
+  }
+
+  .header_area .navbar .nav-item {
+    margin-right: 0px;
+  }
+
+  .header_area+section,
+  .header_area+row,
+  .header_area+div {
+    margin-top: 90px;
+  }
+
+  .main_menu .navbar .container_inner {
+    display: block;
+  }
+
+  .main_menu .navbar .navbar-brand {
+    display: inline-block;
+    padding-top: 11px;
+    width: 173px;
+  }
+
+  .main_menu .navbar .navbar-brand img {
+    width: 100%;
+  }
+
+  .navbar-nav.header_social {
+    display: none;
+  }
+
+}
+
+
+@media (max-width:575px) {
+
+  .header_area+section,
+  .header_area+row,
+  .header_area+div {
+    margin-top: 90px;
+  }
+
+  .top_menu {
+    display: none;
+  }
+
+}
+
+@media (max-width:480px) {
+  .header_area .navbar-collapse {
+    max-height: 250px;
+  }
+}

@@ -1,0 +1,21 @@
+@import '~@styles/variables.scss';
+
+@mixin undecoration-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.logo {
+  font: 600 4rem $icon;
+  @include undecoration-link;
+
+  &:hover {
+    @include undecoration-link;
+
+  }
+
+  &:visited {
+    @include undecoration-link;
+
+  }
+}

@@ -1,0 +1,45 @@
+.navbar-toggler {
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: none;
+  border-radius: 0px;
+  padding: 0px;
+  cursor: pointer;
+
+  .icon-bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background: #fff;
+    margin: auto;
+    margin-bottom: 4px;
+    transition: all 400ms linear;
+    cursor: pointer;
+  }
+
+  &:not(.collapsed) {
+    .icon-bar {
+      &:first-child {
+        transform: rotate(-45deg);
+        position: relative;
+        top: 7.5px;
+      }
+  
+      &:nth-child(2) {
+        opacity: 0;
+      }
+  
+      &:last-child {
+        transform: rotate(45deg);
+        bottom: 6px;
+        position: relative;
+      }
+    }
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
