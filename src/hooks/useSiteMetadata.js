@@ -15,7 +15,8 @@ const useSiteMetadata = () => {
               github
             }
             title
-            image
+            defaultImage:image
+            siteUrl:url
           }
         }
       }

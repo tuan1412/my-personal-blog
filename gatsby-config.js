@@ -12,6 +12,7 @@ module.exports = {
       github: 'https://github.com/tuan1412',
       email: 'tuannguyenanh1412@gmail.com',
     },
+    url: 'https://imtuan.me',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

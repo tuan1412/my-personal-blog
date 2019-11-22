@@ -13,9 +13,11 @@ import SEO from '@components/SEO';
 
 const propTypes = {
   data: PropTypes.object.isRequired,
+  pageContext: PropTypes.object.isRequired,
 };
 
-function DetailBlog({ data }) {
+function DetailBlog({ data, pageContext }) {
+  const { slug } = pageContext;
   const { markdownRemark } = data;
   const { html: content, frontmatter } = markdownRemark;
   const {
@@ -23,12 +25,14 @@ function DetailBlog({ data }) {
     title,
     sapo,
     tags,
+    date,
     ...rest
   } = frontmatter;
   const post = {
     content,
     title,
     tags,
+    date,
     featuredImage: featuredImage.childImageSharp.fluid,
     ...rest,
   };
@@ -38,6 +42,10 @@ function DetailBlog({ data }) {
         title={title}
         description={sapo}
         keywords={tags}
+        publishedTime={date}
+        modifiedTime={date}
+        pathname={slug}
+        image={featuredImage.childImageSharp.fluid.src}
         isArticle
       />
       <section className="blog_area p_120 single-post-area">
