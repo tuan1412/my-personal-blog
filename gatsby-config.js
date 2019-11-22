@@ -18,6 +18,7 @@ module.exports = {
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     'gatsby-plugin-netlify',
+    'gatsby-plugin-offline',
     {
       resolve: 'gatsby-plugin-sass',
       options: {
@@ -74,6 +75,29 @@ module.exports = {
                 h4: 'header',
               },
             },
+          },
+        ],
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: 'imtuan.me',
+        short_name: 'imtuan',
+        start_url: '/',
+        background_color: '#FFF',
+        theme_color: '#FFF',
+        display: 'standalone',
+        icons: [
+          {
+            src: '/images/logo-192x192.png',
+            sizes: '192x192',
+            type: 'image/png',
+          },
+          {
+            src: '/images/logo-512x512.png',
+            sizes: '512x512',
+            type: 'image/png',
           },
         ],
       },
