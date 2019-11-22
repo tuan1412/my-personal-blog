@@ -20,6 +20,7 @@
     "@fortawesome/react-fontawesome": "^0.1.7",
     "bootstrap": "^4.3.1",
     "classnames": "^2.2.6",
+    "disqus-react": "^1.0.7",
     "gatsby": "^2.17.4",
     "gatsby-image": "^2.2.31",
     "gatsby-plugin-alias-imports": "^1.0.5",

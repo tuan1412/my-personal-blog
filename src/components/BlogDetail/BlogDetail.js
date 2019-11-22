@@ -1,8 +1,10 @@
 /* eslint-disable react/no-danger */
+/* eslint-disable react/jsx-props-no-spreading */
 import React from 'react';
 import PropTypes from 'prop-types';
 import Img from 'gatsby-image';
 import Tag from '@components/Tag/Tag';
+import { DiscussionEmbed } from 'disqus-react';
 
 import './style/BlogDetail.scss';
 
@@ -16,7 +18,12 @@ function BlogDetail({ post }) {
     featuredImage,
     title,
     tags,
+    slug,
   } = post;
+  const disqusConfig = {
+    shortname: process.env.GATSBY_DISQUS_NAME,
+    config: { identifier: slug, title },
+  };
   return (
     <div className="main_blog_details">
       <Img fluid={featuredImage} />
@@ -25,6 +32,7 @@ function BlogDetail({ post }) {
         {tags.map((tag) => <Tag key={tag} fieldValue={tag} />)}
       </div>
       <div className="content" dangerouslySetInnerHTML={{ __html: content }} />
+      <DiscussionEmbed {...disqusConfig} />
     </div>
   );
 }

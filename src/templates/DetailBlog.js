@@ -33,6 +33,7 @@ function DetailBlog({ data, pageContext }) {
     title,
     tags,
     date,
+    slug,
     featuredImage: featuredImage.childImageSharp.fluid,
     ...rest,
   };
