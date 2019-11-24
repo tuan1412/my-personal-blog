@@ -13,7 +13,7 @@
 }
 
 .content {
-	font-family: "Open Sans", sans-serif;
+	font-family: $icon;
 	font-weight: initial;
   word-break: break-word;
   line-height: 2em;
@@ -30,7 +30,7 @@
   h4,
   h5,
   h6 {
-    font-family: "Montserrat", sans-serif;
+    font-family: $headericon;
   }
 
   h1 {
