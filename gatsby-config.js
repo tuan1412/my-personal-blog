@@ -73,7 +73,6 @@ module.exports = {
                 h1: 'title header',
                 h2: 'header',
                 h3: 'header',
-                h4: 'header',
               },
             },
           },

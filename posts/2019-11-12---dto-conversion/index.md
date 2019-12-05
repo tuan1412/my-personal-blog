@@ -4,7 +4,7 @@ featuredImage: './cover.png'
 sapo: Khi viết RestApi ta chỉ thường chọn một số thông tin để truyền về client. Từ đó, ta cần convert sang cái gọi là data transfer object (DTO)
 tags: ['java']
 categories: ['Chuyện code']
-date: "2019-12-11"
+date: "2019-11-12"
 ---
 ## Đặt vấn đề
 Khi viết RestAPI ta chỉ thường chọn một số thông tin để truyền về client. Ví dụ như thông tin user thì không cần truyền password chẳng hạn. Từ đó ta cần convert data trả về sang data transfer object (DTO)
