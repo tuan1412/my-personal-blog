@@ -1,6 +1,6 @@
 ---
 title: "50 điều muốn làm trong năm 2020"
-featuredImage: './cover.png'
+featuredImage: './cover.jpg'
 sapo: Welcome 2020
 tags: ['todo']
 categories: ['Chuyện linh tinh']
@@ -18,4 +18,4 @@ Chuẩn bị giao thừa, thời khác đặc biệt nên mình cũng muốn là
 9. Hoàn thiện dự án yeuxa
 10. Dịch xong quyển Kakashi hidden
 11. Đọc 6 cuốn sách về lập trình hoặc design
-12. 
+12. Đọc 1 cuốn sách về phỏng vấn
