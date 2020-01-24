@@ -35,7 +35,7 @@ Làm như vậy ta mới giải quyết một vấn đề là cho webpack hiểu
 Eslint không hiểu và báo lỗi.
 ![eslint-alias](./eslint-error.png)
 Texteditor cụ thể là mình đang sử dụng là VSCode không gợi ý.
-![vscode-alias](./vscode.gif)
+![autocomplete](https://s3-ap-southeast-1.amazonaws.com/kipalog.com/sjiywc63zt_vscode-alias.gif)
 
 Vậy config chuẩn alias phải thỏa mãn 3 yếu tố:
 1.	Webpack hiểu
