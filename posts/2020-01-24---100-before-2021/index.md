@@ -19,3 +19,4 @@ Chuẩn bị giao thừa, thời khác đặc biệt nên mình cũng muốn là
 10. Dịch xong quyển Kakashi hidden
 11. Đọc 6 cuốn sách về lập trình hoặc design
 12. Đọc 1 cuốn sách về phỏng vấn
+13. Đạp xe một vòng Hồ Tây với Quỳnh
