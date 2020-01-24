@@ -16,5 +16,4 @@ Blog cá nhân của mềnh. Lụm lặt và chia sẻ về code và cuộc số
 4. Netlify
 
 ## Kết quả
-
-
+https://pasteboard.co/IRthktd.png
