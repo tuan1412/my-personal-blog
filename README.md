@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://imtuan.me">
-    <img alt="imtuan" src="https://pasteboard.co/IRtdh8j.png" width="60" />
+    <img alt="imtuan" src="https://i.imgur.com/XLkrpnq.png" width="60" />
   </a>
 </p>
 <h1 align="center">
@@ -16,4 +16,4 @@ Blog cá nhân của mềnh. Lụm lặt và chia sẻ về code và cuộc số
 4. Netlify
 
 ## Kết quả
-https://pasteboard.co/IRthktd.png
+![audit](https://i.imgur.com/68XrLwE.png)
