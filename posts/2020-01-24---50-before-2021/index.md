@@ -20,3 +20,8 @@ Chuẩn bị giao thừa, thời khác đặc biệt nên mình cũng muốn là
 11. Đọc 6 cuốn sách về lập trình hoặc design
 12. Đọc 1 cuốn sách về phỏng vấn
 13. Đạp xe một vòng Hồ Tây với Quỳnh
+14. Hoàn thành một khóa học về thuật toán
+15. Học và chỉnh sửa Linkedin một cách chuyên nghiệp
+16. Học sketch note
+17. Cuối năm mời Hà một bữa thật ngon ở khu Bách Khoa
+18. Mua một VPS và học deploy
