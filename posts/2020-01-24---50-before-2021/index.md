@@ -27,3 +27,4 @@ Chuẩn bị giao thừa, thời khác đặc biệt nên mình cũng muốn là
 16. Học sketch note
 17. Cuối năm mời Hà một bữa thật ngon ở khu Bách Khoa
 18. Mua một VPS và học deploy
+19. Mua khuyên tai tặng sinh nhật Ngố
