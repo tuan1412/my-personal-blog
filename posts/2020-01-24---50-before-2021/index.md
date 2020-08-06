@@ -9,7 +9,7 @@ date: "2020-01-24"
 
 Chuẩn bị giao thừa, thời khác đặc biệt nên mình cũng muốn làm điều đặc biệt. Dưới đây là 50 điều mình muốn làm trong năm 2020. List không theo thứ tự quan trọng, nghĩ gì cái gì ghi ra cái đấy và sẽ hoàn thiện dần dần.
 
-~~1. Tốt nghiệp Đại học Bách Khoa~~
+1. ~~Tốt nghiệp Đại học Bách Khoa~~
 2. Tham gia một cuộc thi code
 3. Nói chuyện với một người nước ngoài
 4. Xem một bộ phim không cần sub
@@ -27,5 +27,5 @@ Chuẩn bị giao thừa, thời khác đặc biệt nên mình cũng muốn là
 16. Học sketch note
 17. Cuối năm mời Hà một bữa thật ngon ở khu Bách Khoa
 18. Mua một VPS và học deploy
-~~19. Mua khuyên tai tặng sinh nhật Ngố~~
+19. ~~Mua khuyên tai tặng sinh nhật Ngố~~
 20. Dựng 1 project sử dụng queue, redis, elastic search
