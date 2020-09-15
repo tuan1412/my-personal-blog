@@ -1,6 +1,6 @@
 ---
 title: "Tạm thời chưa biết viết cái gì"
-featuredImage: "./cover.jpg"
+featuredImage: "./cover.png"
 sapo: Tạm thời chưa biết viết cái gì
 tags: ["test"]
 categories: ["Chuyện linh tinh"]
